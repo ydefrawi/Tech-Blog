@@ -24,11 +24,11 @@
   </div>
 
   {{#if posts.length}}
-  <div class="col-md-6 ">
+  <div class="col-md-6 post-list">
     <h3>Your Posts:</h3>
 {{!-- might have to change projects to project  --}}
     {{#each posts as |post|}}
-    <div class="row mb-2 post-list">
+    <div class="row mb-2">
       <div class="col-md-8">
         <h4><a href="/post/{{post.id}}">{{post.name}}</a></h4>
       </div>
