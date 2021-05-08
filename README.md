@@ -1,8 +1,10 @@
 # Tech-Blog
 
+
 ## Description
 This tech blog allows logged in users to create blog posts which can be viewed by visitors. The owner has access to a dashboard where they can create or delete their posts. 
 
+[Deployed Heroku Page](https://tech-blog-defrawi.herokuapp.com/)
 
 ## User Story 
 ```
