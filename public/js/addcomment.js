@@ -1,20 +1,21 @@
-const newPostHandler = async (event) => {
+
+const newCommentHandler = async (event) => {
     event.preventDefault();
-  
-    // Collect values from the post form
-    const body = document.querySelector('#comment').value.trim();
-  console.log(title,body)
-    if (body) {
+    const post_id = window.location.href.split('/')[4]
+    // console.log(currentPost)
+    // Collect value from the comment body
+  const content = document.querySelector('#comment').value.trim();
+    if (content) {
       // Send a POST request to the API endpoint
-      const response = await fetch('/api/post/:id', {
+      const response = await fetch(`/api/comment/`, {
         method: 'POST',
-        body: JSON.stringify({ title, body }),
+        body: JSON.stringify({content, post_id}),
         headers: { 'Content-Type': 'application/json' },
       });
   
-      if (response.ok) {
+      if (await response.ok) {
         // If successful, redirect the browser to the dashboard page
-        document.location.replace('/dashboard');
+          document.location.replace(`/post/${post_id}`);
       } else {
         alert(response.statusText);
       }
@@ -23,5 +24,5 @@ const newPostHandler = async (event) => {
 
   document
     .querySelector('.comment-form')
-    .addEventListener('submit', newPostHandler);
+    .addEventListener('submit', newCommentHandler);
   

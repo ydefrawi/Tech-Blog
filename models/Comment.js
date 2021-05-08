@@ -18,7 +18,7 @@ Comment.init(
         user_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
-            require: {
+            references: {
                 model: "User",
                 key: "id"
             },
