@@ -49,3 +49,7 @@ header, .project:not(:last-child) {
 .dash-posts{
  align-self:flex-end;
 }
+
+.tech-on-deck{
+  color:white;
+}

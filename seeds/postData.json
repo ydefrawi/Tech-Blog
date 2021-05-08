@@ -1,17 +1,27 @@
 [
   {
-    "name": "Music Near Me",
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-    "date_created": "May 05, 2017"
+    "name": "Whatsapp's Privacy Policy Under Microscope",
+    "description": "The leading chat app seems to be under heavy scrutiny lately.",
+    "date_created": "May 05, 2021"
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-    "date_created": "May 05, 2017"
+    "name": "Sennheiser Unveils Latest Audio Gear",
+    "description": "Sennheisers have always packed a punch, but they might change the game once again.",
+    "date_created": "May 05, 2021"
   },
   {
-    "name": "Roll 'Em Up",
-    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-    "date_created": "May 05, 2017"
+    "name": "Amazon Delivery Drones Under Security Threat",
+    "description": "An idyllic view of the future or dystopian nightmare?",
+    "date_created": "May 05, 2021"
+  },
+  {
+    "name": "HHS CDO Touts Collaboration Goals for Data Sharing",
+    "description": "The program is providing opportunities for innovators to bring transformational processes and emerging technology to government agencies.",
+    "date_created": "May 05, 2021"
+  },
+  {
+    "name": "Calling for Agile, DevOps Strategies to Modernize Federal IT",
+    "description": "Agile approaches can give agencies a boost in decommissioning legacy systems and forging a path for the tech future.",
+    "date_created": "May 05, 2021"
   }
 ]

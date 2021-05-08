@@ -13,10 +13,10 @@
 <body>
   <div class="flex-column justify-space-around">
     
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <header class="d-flex flex-wrap justify-content-center p-3 bg-dark text-white">
   <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      <span class="fs-4">Tech On Deck</span>
+      <span class="fs-4 tech-on-deck">Tech On Deck</span>
     </a>
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
@@ -26,7 +26,7 @@
         <li class="nav-item"><a href="#" class="nav-link" id="logout">Logout</a></li>
 
         {{else}}
-        <li class="nav-item"><a href="/login" class="nav-link" id="login">Login</a></li>
+        <li class="nav-item"><a href="/login" class="nav-link " id="login">Login</a></li>
 
         {{/if}}
        </ul>
