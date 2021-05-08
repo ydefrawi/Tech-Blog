@@ -10,3 +10,8 @@ AS A developer who writes about tech
 I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
+
+![HomePage](images/Homepage.PNG)
+![SignUp](images/Login-Signup.PNG)
+![HomePage](images/WhenLoggedIn.PNG)
+![HomePage](images/Individual-Post-Page.PNG)
